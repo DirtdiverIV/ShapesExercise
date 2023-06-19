@@ -1,0 +1,73 @@
+.tittle {
+    height: 10em;
+}
+
+.canvas {
+    height: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reset {
+    height: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    height: 3em;
+}
+
+
+.tri { 
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 50px solid yellow;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-self: center;
+}
+
+.squ {
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  margin-left: 20px;
+  margin-right: 20px;
+  align-self: center;
+}
+
+.cir {
+  height: 50px;
+  width: 50px;
+  background-color: blue;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-right: 20px;
+  align-self: center;
+}
+
+.tri:hover {
+    border-bottom: 50px solid greenyellow !important;
+}
+
+.boxtri:hover {
+    align-self: flex-start;
+}
+
+.squ:hover {
+    background-color: rebeccapurple !important;
+    align-self: flex-start;
+}
+
+.cir:hover {
+    background-color: aqua !important;
+    align-self: flex-start;
+}
+
+h1{
+    text-align: center;
+}
